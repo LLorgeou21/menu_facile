@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Recettes de Saison</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Plats de la semaine</h1>
+        <div id="meals-container"></div>
+        <button id="reload-all">Relancer tous les plats</button>
+        <button id="savePdfBtn">Enregistrer le menu en PDF</button>
+    </div>
+
+    <!-- Charge jsPDF d'abord -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Puis le script principal -->
+    <script src="script.js"></script>
+</body>
+</html>
